@@ -1,31 +1,24 @@
 * {
-
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 body {
-
     background: url('img/Pozadina.png') no-repeat center;
     background-size: cover;
     font-family: 'Times New Roman', Times, serif
-
 }
 
 .login_space {
-
     height: 100vh;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .form {
-
     position: relative;
     width: 100%;
     max-width: 380px;
@@ -34,29 +27,23 @@ body {
     border-radius: 10px;
     color: white;
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
-    
 }
 
 .form img {
-
     position: absolute;
     top: -150px;
     left: calc(50% - 150px);
     width: 300px;
-
 }
 
 .form h2 {
-
     text-align: center;
     letter-spacing: 1px;
     margin-bottom: 2rem;
     color: white;
-
 }
 
 .form .input input {
-
     width: 100%;
     padding: 10px 0;
     font-size: 1rem;
@@ -67,11 +54,9 @@ body {
     outline: none;
     background-color: transparent;
     color: white;
-
 }
 
 .form .input label {
-
     position: absolute;
     top: 0;
     left: 0;
@@ -79,20 +64,15 @@ body {
     font-size: 1rem;
     pointer-events: none;
     transition: .3s ease-out;
-    
 }
 
-.form .input input:focus + label,
-.form .input input:valid + label {
-
+.form .input input:focus+label, .form .input input:valid+label {
     transform: translateY(-18px);
     color: white;
     font-size: .8rem;
-
 }
 
 .click-submit {
-
     display: block;
     margin-left: auto;
     border: none;
@@ -104,17 +84,13 @@ body {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-
 }
 
 .forget_password {
-
     color: inherit;
-
 }
 
 #forgot_password {
-
     position: absolute;
     display: flex;
     justify-content: center;
@@ -127,18 +103,14 @@ body {
     background: white;
     opacity: 0;
     transition: 0.6s;
-
 }
 
 #forgot_password:target {
-
-    height:100%;
+    height: 100%;
     opacity: 1;
-
 }
 
 .close {
-
     position: absolute;
     right: 1.5rem;
     top: 0.5rem;
@@ -146,5 +118,4 @@ body {
     font-weight: 900;
     text-decoration: none;
     color: inherit;
-
 }

@@ -81,7 +81,6 @@ if (isset($_POST['btn_login'])) {
     <div class="login_space">
 
         <form action="#" method="POST" class="form">
-
             <img src="img/Schoolooze1000.png" alt="">
             <h2>Login</h2>
 
@@ -98,7 +97,6 @@ if (isset($_POST['btn_login'])) {
             <input type="submit" value="Login" name="btn_login" class="click_submit">
 
             <a href="register.php" style="color: white;text-decoration: none;font-weight: 600;float: right;">Register</a>
-
         </form>
 
         <!-- //*! nepotrebno za sada -->

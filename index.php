@@ -42,7 +42,7 @@ $ProfilePic = $rowData['profile_image_hq'];
     <img src="img/profile_images/HQ_img/<?php echo $ProfilePic ?>" alt="" width="20%">
 
     <br><br><br>
-    <form class="nav-link" method="POST" action="backend_logic/logout.logic.php">
+    <form method="POST" action="backend_logic/logout.logic.php">
         <button type="submit" id="btn_logout" name="btn_logout" style="background-color: transparent; border:none; font-weight:600; outline: none !important;">
             <span>Logout</span>
         </button>

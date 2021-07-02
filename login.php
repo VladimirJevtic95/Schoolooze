@@ -71,7 +71,7 @@ if (isset($_POST['btn_login'])) {
     <title>Login Schoolooze</title>
 
     <!-- css login style -->
-    <link rel="stylesheet" type="text/css" href="login.css">
+    <link rel="stylesheet" type="text/css" href="style/style.login.css">
 
 
 </head>
